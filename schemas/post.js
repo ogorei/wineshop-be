@@ -19,6 +19,15 @@ export default{
       title: 'Slug',
     },
     {
+      name: 'image',
+      title: 'Image',
+      type: 'array',
+      of: [{ type: 'image' }],
+      options: {
+        hotspot: true,
+      }
+    },
+    {
       name:'content',
       type:'array',
       title: 'Content',
